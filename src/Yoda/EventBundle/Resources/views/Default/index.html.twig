@@ -1,0 +1,14 @@
+{% extends "::base.html.twig"%}
+
+{% block title %} Yessss, this is my title!!! {% endblock %}
+ 
+{% block body %}
+
+    {% for i in 1..10 %}
+        Hello <strong>{{ name }}!</strong> {{ i }}<br>
+    {% endfor %}
+    <h2>Event Name</h2>  
+    {{ event.name }}<br>
+    {{ event.location }}<br>
+ 
+ {% endblock %}
