@@ -22,7 +22,9 @@
         "ircmaxell/password-compat": "~1.0",
         "phpunit/phpunit": "~4.1",
         "stof/doctrine-extensions-bundle": "~1.1",
-        "sonata-project/admin-bundle": "^2.3"
+        "sonata-project/admin-bundle": "^2.3",
+        "sonata-project/doctrine-orm-admin-bundle": "^2.3",
+        "knplabs/knp-menu-bundle": "^2.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

@@ -3,6 +3,8 @@ imports:
     - { resource: security.yml }
     - { resource: @EventBundle/Resources/config/services.yml }
     - { resource: @UserBundle/Resources/config/services.yml }
+    - { resource: @EventBundle/Resources/config/admin.yml }
+    - { resource: @UserBundle/Resources/config/admin.yml }
 parameters:
     our_assets_version: 5-return-of-the-jedi
     
@@ -89,3 +91,14 @@ stof_doctrine_extensions:
         default:
             sluggable: true
             timestampable: true
+
+sonata_block:
+    default_contexts: [cms]
+    blocks:
+        # Enable the SonataAdminBundle block
+        sonata.admin.block.admin_list:
+            contexts:   [admin]
+
+sonata_admin:
+    title:      Starwarsevents Admin
+   # title_logo: bundles/acmedemo/img/fancy_acme_logo.png
