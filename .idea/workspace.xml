@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66337745-d3f6-441e-98d6-1deca005f757" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/UserBundle/Admin/UsersAdmin.php" afterPath="$PROJECT_DIR$/src/Yoda/UserBundle/Admin/UsersAdmin.php" />
-    </list>
+    <list default="true" id="66337745-d3f6-441e-98d6-1deca005f757" name="Default" comment="" />
     <ignored path="starwarsevents.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,19 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="admin.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/admin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="48" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-12.16" vertical-offset="257" max-vertical-offset="663">
+            <state line="12" column="1" selection-start="356" selection-end="356" vertical-scroll-proportion="0.6035503" vertical-offset="0" max-vertical-offset="338">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersAdmin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UsersAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Admin/UsersAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="711" selection-end="711" vertical-scroll-proportion="-0.18" vertical-offset="471" max-vertical-offset="833">
+            <state line="27" column="13" selection-start="711" selection-end="711" vertical-scroll-proportion="2.4230769" vertical-offset="471" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
@@ -66,7 +64,7 @@
       <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="408">
+            <state line="16" column="18" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -92,13 +90,13 @@
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/DataFixtures/ORM/LoadUsers.php" />
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Admin/EventsAdmin.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/admin.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/DependencyInjection/YodaUserBundleExtension.php" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/config/admin.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Admin/EventAdmin.php" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Admin/UsersAdmin.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/admin.yml" />
       </list>
     </option>
   </component>
@@ -539,23 +537,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="13" selection-start="897" selection-end="905" vertical-scroll-proportion="0.48024315" vertical-offset="624" max-vertical-offset="4828">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/admin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="48" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-12.16" vertical-offset="257" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
@@ -608,7 +592,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Admin/UsersAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="711" selection-end="711" vertical-scroll-proportion="-0.18" vertical-offset="471" max-vertical-offset="833">
+        <state line="27" column="13" selection-start="711" selection-end="711" vertical-scroll-proportion="2.4230769" vertical-offset="471" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/admin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="356" selection-end="356" vertical-scroll-proportion="0.6035503" vertical-offset="0" max-vertical-offset="338">
           <folding />
         </state>
       </provider>
