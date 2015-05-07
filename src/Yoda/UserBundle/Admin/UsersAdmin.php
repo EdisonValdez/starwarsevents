@@ -13,7 +13,7 @@ class UsersAdmin extends Admin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('id')
+            #->add('id')
             ->add('username')
             ->add('email')
             #->add('roles')
@@ -25,7 +25,7 @@ class UsersAdmin extends Admin
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
-            ->add('id')
+            #->add('id')
             ->add('username')
             ->add('email')
             #->add('roles')
