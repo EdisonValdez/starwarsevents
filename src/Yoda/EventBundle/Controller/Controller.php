@@ -25,4 +25,6 @@ class Controller extends BaseController
             throw new AccessDeniedException('You are not the Owner of this Event');
         }
     }
+
+
 }

@@ -28,7 +28,29 @@
  
     </head>
     <body>
-         {% if app.session.flashBag.has('success') %}
+    <div class="topbar">
+        <div class="header">
+            <a href=""><div class="logo"></div><div class="logo-small"></div></a>
+            <div class="search-input"><input type="text" id="search" placeholder="" ></div>
+            <!--	<a onclick="showNotification(\'\', \'1\')"><div class="menu_btn" id="notifications_btn" title=""><img src="assets/assets/images/notification.png" id="notifications_img" /></div></a>
+            -->   <a href="index.php?do=quoteusa" id="messages_url"><div class="menu_btn" title="Sending Messages"><img src="../assets/assets/images/message.png" /></div></a>
+            <!--<a href="../account.php"><div class="menu_btn" title="Edit Account"><img src="../assets/assets/images/timeline.png" /></div></a>
+         -->  <a href="index.php?do=users&amp;action=edit&amp;id=5"><div class="menu_btn" title="Account"><img src="../assets/assets/images/icons/edit_h.png"></div></a>
+            <a href="logout.php"><div class="menu_btn" title="Sign Out"><img src="../assets/assets/images/logout.png"></div></a>
+
+            <!--    <a href="../admin/index.php"><div class="menu_btn" title="Admin"><img src="../assets/assets/images/icons/private_post_h.png"></div></a>
+        -->            <div class="notification-container">
+                <div class="notification-content">
+
+                    <div id="notifications-content"></div>
+                    <div class="notification-row"><div class="notification-padding"><a href=""> </a></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="search-container"></div>
+    </div>
+<br><br>
+    {% if app.session.flashBag.has('success') %}
         <div class="alert alert-success">
             {% for msg in app.session.flashBag.get('success') %}
                 {{ msg }}
