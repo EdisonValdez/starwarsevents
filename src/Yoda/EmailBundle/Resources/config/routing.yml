@@ -1,0 +1,11 @@
+#email_homepage:
+        # path:     /hello/{name}
+        # defaults: { _controller: EmailBundle:Email:index }
+
+email_formEmail:
+         path:     /formEmail
+         defaults: { _controller: EmailBundle:Email:formEmail }
+
+email_sendMail:
+         path:     /sendMail
+         defaults: { _controller: EmailBundle:Email:sendMail }

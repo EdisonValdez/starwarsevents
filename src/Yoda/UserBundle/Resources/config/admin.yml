@@ -1,0 +1,12 @@
+services:
+    sonata.admin.user:
+        class: Yoda\UserBundle\Admin\UsersAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Content", label: "Users" }
+        arguments:
+            - ~
+            - Yoda\UserBundle\Entity\User
+            - ~
+        calls:
+            - [ setTranslationDomain, [YodaUserBundle]]
+

@@ -1,0 +1,97 @@
+{% extends 'EmailBundle::layout.html.twig' %}
+
+{% block body %}
+
+    {% for label, flashes in app.session.flashbag.all %}
+        {% for flash in flashes %}
+            <div class="alert alert-{{ label }}">
+                {{ flash }}
+            </div>
+        {% endfor %}
+    {% endfor %}
+    <div class="container">
+        <div class="site-index">
+            <div class="body-content">
+                <div align="center"><h1>QUOTE NOW WHATEVER YOU NEED</h1>
+                    <H2> <i>{{ app.user.username }}</i>, Suppliers are waiting your request!</H2>
+                </div>
+                <br>
+                <br>
+
+     <div class="row" style="background: #fff; padding:20px; ">
+        <div class="col-md-12">
+          <div id="fullform">
+
+         <form role="form" action="{{ path("email_formEmail") }}" enctype="multipart/form-data" method="POST">
+             {{ form_start(form) }}
+            <div class="#{$fa-css-prefix}-angle-down"> {{ form_errors(form) }}</div>
+             {#{{ form_row(form.email, { value:  app.user.email }) }}#}
+             {{ form_row(form.username, { value:  app.user.username }) }}
+             {{ form_row(form.email, { 'value': 'evaldez@bullatickets.com' }) }}
+             {{ form_row(form.emailTo, { 'value':  'iancasillasbuffon@gmail.com' }) }}
+             {{ form_row(form.tracking, { value: random()}) }}
+             {{ form_row(form.quotationSender, { 'value': 'evaldez@bullatickets.com' }) }}
+             <div class="col-md-6">
+             <div class="form-group">
+                   {{ form_row(form.category) }}
+
+
+             </div>
+             <div class="form-group">
+                  {{ form_row(form.product) }}
+             </div>
+
+                 <div class="form-group">
+                     {{ form_row(form.quantity) }}
+
+                 </div>
+            </div>
+
+             <div class="col-md-6">
+                 <div class="form-group">
+                       {{ form_row(form.city) }}
+                 </div>
+
+                 <div class="form-group">
+                       {{ form_row(form.image) }}
+                 </div>
+
+                 <div class="form-group">
+
+                     {{ form_row(form.qtyType, {
+                     'attr': { 'class': 'form-control' },
+                     }) }}
+
+                 </div>
+            </div>
+
+           <div class="col-md-12">
+
+                   <div class="col-md-9">
+                           {{ form_row(form.message, {
+                           'attr': { 'class': 'form-control' }
+                           }) }}
+                   </div>
+                       <div class="col-md-3">
+                           {{ form_row(form.captcha, {
+                               'attr': { 'class': 'form-control' }
+                               }) }}
+                       </div>
+
+
+                       <div class="col-md-12">
+
+                            <input type="submit" style="color: #FFF;background-color: #337AB7;play: inline-block;padding: 8px 12px;margin-bottom: 0px;font-size: 14px; font-weight: 400; line-height: 1.42857; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; -moz-user-select: none; background-image: none;border: 12px solid transparent; border-radius: 8px;" class="btn btn-primary btn-lg btn-block" value="GET QUOTATIONS NOW!" />                  </div>
+
+                            </div>
+
+                       {{ form_end(form) }}
+
+          </form>
+     </div>
+ </div>
+          </div>
+                </div>
+            </div>
+    </div>
+{% endblock %}

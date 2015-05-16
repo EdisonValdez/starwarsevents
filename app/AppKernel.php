@@ -28,6 +28,11 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Yoda\EmailBundle\EmailBundle(),
+            new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
+
+
+
+
 
         ];
 

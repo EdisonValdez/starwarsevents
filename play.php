@@ -26,9 +26,9 @@ use Doctrine\ORM\EntityManager;
 $em = $container->get('doctrine')->getManager();
 
 $wayne = $em->getRepository('UserBundle:User')
-        ->findOneByUsernameOrEmail('wayne');
+        ->findOneByUsernameOrPassword('wayne');
 
-$wayne->setPlainPassword('newpass');
+$countries->setPassword('newpass');
 $em->persist($wayne);
 $em->flush();
 //echo $templating->render($event);

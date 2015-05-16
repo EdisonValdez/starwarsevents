@@ -1,0 +1,12 @@
+services:
+    sonata.admin.event:
+        class: Yoda\EventBundle\Admin\EventAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Content", label: "Event" }
+        arguments:
+            - ~
+            - Yoda\EventBundle\Entity\Event
+            - ~
+        calls:
+            - [ setTranslationDomain, [YodaEventBundle]]
+
