@@ -20,7 +20,14 @@ class EmailType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
+            ->add('captcha', 'captcha')
             ->add('tracking', 'hidden')
+            #->add('imageFile', 'file')
+            #->add('imageName',  'vich_image', array(
+             #   'required'      => false,
+              #  'allow_delete'  => true, // not mandatory, default is true
+               # 'download_link' => true, // not mandatory, default is true
+            #))
             ->add('quotationSender','hidden')
             ->add('product', 'text', array(
                 'attr' => array(
@@ -62,78 +69,36 @@ class EmailType extends AbstractType
                 'choices' => array(
                     'Pieces'   => 'Pieces',
                     'Unit' => 'unit',
-                    'Kilogram'   => 'Kilogram'),
+                    'Kilogram'   => 'Kilogram',
+                    'Is a Service' => 'Is a Service' ),
 
                 'required'=> true))
             ->add('username', 'hidden')
-            ->add('image', 'file', array(
+            ->add('image', 'hidden', array(
+             'label'=> 'Have an Image?',
+             'required' => false
+            ))
+            ->add('file', 'file', array(
                 'label'=> 'Have an Image?',
                 'required' => false
             ))
 
             ->add('email', 'hidden')
-            ->add('captcha', 'captcha')
+            ->add('name', 'hidden')
+
             ->add('emailTo','hidden');
     }
+
     
     /**
      * @param OptionsResolverInterface $resolver
      */
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
-        $collectionConstraint = new Collection(array(
-                'city' => array(
-                    new NotBlank(array('message'=>'You should select a city!')),
-                    new Length(array('min' => 2))
-                ),
-                'message' => array(
-                    new NotBlank(array('message' => 'Message should not be blank.')),
-                    new Length(array('min' => 10))
-                ),
-                'product' => array(
-                    new NotBlank(array('message' => 'product should not be blank.'))
-                ),
-                'qtyType' => array(
-                    new NotBlank(array('message' => 'qtyType should not be blank.'))
-                ),
-                'emailTo' => array(
-                    new NotBlank(array('message' => 'Sorry, it seems no suppliers. Change your values.')),
-                    new Length(array('min' => 5))
-                ),
-                'category' => array(
-                    new NotBlank(array('message' => 'emailTo should not be blank.')),
-                    new Length(array('min' => 3))
-                ),
-                'quantity' => array(
-                    new NotBlank(array('message' => 'emailTo should not be blank.')),
-                    new Length(array('min' => 1))
-                ),
-                'username' => array(
-                    new Length(array('min' => 1))
-                ),
-                'quotationSender' => array(
-                    new Length(array('min' => 1))
-                ),
-
-                'tracking' => array(
-                    new Length(array('min' => 1))
-                ),
-                'image' => array(
-                    new Length(array('min' => 1))
-                ),
-                'email' => array(
-                    new Length(array('min' => 1))
-                ),
-                'captcha' => array(
-                    new NotBlank(array('message' => 'Please, prove you are not a robot!'))
-                ),
-         )
-        );
         $resolver->setDefaults(array(
-            'constraints' => $collectionConstraint
-        ));
+            'data_class' => 'Yoda\EmailBundle\Entity\Email',
+      ));
     }
-
     /**
      * @return string
      */

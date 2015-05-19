@@ -16,6 +16,7 @@ security:
             form_login:
                 check_path: login_check
                 login_path: login_form
+                require_previous_session: false
             logout:
                 path:   logout  # a route name
                 target: event   # a route for our homepage

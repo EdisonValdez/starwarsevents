@@ -39,11 +39,20 @@ class LoadUsers implements FixtureInterface, ContainerAwareInterface, OrderedFix
         $manager->persist($admin);
 
         $edison = new User();
-        $user->setUsername('EdisonValdez');
+        $edison->setUsername('EdisonValdez');
         //$user->setPassword($this->encodePassword($user, 'darthpass'));
-        $user->setPlainPassword('Thesecret1');
-        $user->setEmail('eddynvg@hotmail.com');
+        $edison->setPlainPassword('Thesecret1');
+        $edison->setEmail('eddynvg@hotmail.com');
+        $edison->setRoles(array('ROLE_ADMIN'));
         $manager->persist($edison);
+
+        $Martha = new User();
+        $Martha->setUsername('Martha');
+        //$user->setPassword($this->encodePassword($user, 'darthpass'));
+        $Martha->setPlainPassword('Marthat1');
+        $Martha->setEmail('mvp@hotmail.com');
+        $Martha->setRoles(array('ROLE_USER'));
+        $manager->persist($Martha);
         
         $manager->flush();
     }

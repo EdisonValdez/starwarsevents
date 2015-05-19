@@ -1,9 +1,9 @@
 /web/bundles/
 /app/bootstrap.php.cache
-/app/cache2/*
+/app/cache0/*
 /app/config/parameters.yml
 /app/logs/*
-!app/cache2/.gitkeep
+!app/cache0/.gitkeep
 !app/logs/.gitkeep
 /build/
 /vendor/

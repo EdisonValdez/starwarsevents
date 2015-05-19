@@ -24,6 +24,10 @@ framework:
         assets_version: %our_assets_version%
         assets_version_format: "%%s?v=%%s"
         # assets_base_url: //myfancycdn.com
+    #form_themes:
+          # - 'YodaEmailBundle:Email:formEmail.html.twig'
+          # - 'VichUploaderBundle:Form:fields.html.twig'
+
         
     default_locale:  "%locale%"
     trusted_hosts:   ~
@@ -112,5 +116,15 @@ sonata_admin:
     title:      Starwarsevents Admin
    # title_logo: bundles/acmedemo/img/fancy_acme_logo.png
 
-gregwar_captcha: ~
+gregwar_captcha:
+    width: 243,
+    height: 100,
+    length: 5,
+    background_color:
+            - 255,
+            - 255,
+            - 255,
+    distortion: false
+
+
 

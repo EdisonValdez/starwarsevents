@@ -4,8 +4,7 @@ namespace Yoda\EmailBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller as BaseController;
 use Yoda\EmailBundle\Entity\Email;
-//use Symfony\Component\Security\Core\Exception\AccessDeniedException;
-use Yoda\EmailBundle\Controller\Controller;
+use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Yoda\EmailBundle\Form\EmailType;
 use Symfony\Component\HttpFoundation\Request;
 use Yoda\UserBundle\Entity\User;
@@ -34,20 +33,45 @@ class EmailController extends BaseController {
      */
     public function formEmailAction(Request $request)
     {
+        $this->enforceUserSecurity('ROLE_USER');
         $form = $this->createForm(new EmailType());
 
-            if($request->isMethod('POST')){
-                $form->bind($request);
+        if ($request->isMethod('POST')) {
+            $form->bind($request);
 
-                if($form->isValid()){
+            if ($form->isValid()) {
+                $user = $this->getUser();
+                $email = new Email();
+                $email->setName($user);
+                $email->setTracking(rand(100000,30000000));
+                $email->setCategory($form->get('category')->getData());
+                $email->setCity($form->get('city')->getData());
+                $email->setMessage($form->get('message')->getData());
+                $email->setProduct($form->get('product')->getData());
+                $email->setQuantity($form->get('quantity')->getData());
+                $email->setQtyType($form->get('qtyType')->getData());
+                $email->setFile($form->get('file')->getData());
+                $email->setImage($email->getWebPath());
+                $email->setIp($request->getClientIp());
+                $email->setQuotationSender($user);
+                $email->setCaptcha($form->get('captcha')->getData());
+                $email->setUsername($form->get('username')->getData());
+                $email->setMessageId($email->getTracking());
+                $email->setEmail("evaldez@bullatickets.com");
+                $email->setEmailTo("iancasillasbuffon@gmail.com");
 
-                $message = \Swift_Message::newInstance()
-                    ->setSubject($form->get('product')->getData())
-                    ->setFrom('evaldez@bullatickets.com')
-                    ->setTo('iancasillasbuffon@gmail.com')
-                    ->setCharset('utf-8')
-                    ->setContentType('text/html')
-                    ->setBody('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                $em = $this->getDoctrine()->getManager();
+
+                    $em->persist($email);
+                    $em->flush();
+
+                    $message = \Swift_Message::newInstance()
+                        ->setSubject($form->get('product')->getData())
+                        ->setFrom('evaldez@bullatickets.com')
+                        ->setTo('iancasillasbuffon@gmail.com')
+                        ->setCharset('utf-8')
+                        ->setContentType('text/html')
+                        ->setBody('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
     <!-- If you delete this tag, the sky will fall on your head -->
@@ -328,7 +352,7 @@ class EmailController extends BaseController {
                                     <tr style="background:#ccc;"><td><strong>QUANTITY</strong></td><td><strong>PRODUCT OR SERVICE</strong></td>
                                         <td><strong>DETAILED DESCRIPTION</strong></td></tr>
                                     <tr><td><b>'.$form->get('quantity')->getData().'  '.$form->get('qtyType')->getData().'</b></td>
-                                        <td> <b>'.$form->get('product')->getData().'</b></td><td>'. $form->get('message')->getData().'</td></tr>
+                                        <td> <b>'.$form->get('product')->getData().'</b></td><td>'. $form->get('message')->getData().'<br><img src="' . $email->getImage().'" width="150px" height="auto"/><br>'.$email->getWebPath().'</td></tr>
 
 
 
@@ -423,19 +447,16 @@ class EmailController extends BaseController {
     </body>
     </html>
 ', 'text/html'
-                       );
-                $this->get('mailer')->send($message);
-                $request->getSession()->getFlashBag()->add('success', 'Your quotation have been sent' );
-               // return $this->redirect($this->generateUrl('formEmail'));
-            }
-     }
-
+                        );
+                    $this->get('mailer')->send($message);
+                    $request->getSession()->getFlashBag()->add('success', 'Your quotation have been sent' );
+                    // return $this->redirect($this->generateUrl('formEmail'));
+                }
+        }
         return array(
-            'form' => $form->createView()
-        );
-
+        'form' => $form->createView()
+    );
     }
-
 
     public function sendMailAction(){
         return $this->render('EmailBundle:Email:sendMail.html.twig');
@@ -451,4 +472,19 @@ class EmailController extends BaseController {
         return $user_email;
     }
 
+
+    private function enforceUserSecurity($role = 'ROLE_USER')
+    {
+        if(!$this->container->get('security.context')->isGranted($role))
+        {
+            // Symfony 2.5
+            // throw $this->createAccessDeniedException('Need ROLE_ADMIN');
+            throw new AccessDeniedException('Need '.$role);
+        }
+    }
+
+
+
 }
+
+

@@ -20,7 +20,7 @@ class SecurityController extends Controller
 
         // get the login error if there is one
          $error = $session->get(SecurityContextInterface::AUTHENTICATION_ERROR);
-            $session->remove(SecurityContextInterface::AUTHENTICATION_ERROR);
+         $session->remove(SecurityContextInterface::AUTHENTICATION_ERROR);
        
         // last username entered by the user
         $lastUsername = (null === $session) ? '' : $session->get(SecurityContextInterface::LAST_USERNAME);

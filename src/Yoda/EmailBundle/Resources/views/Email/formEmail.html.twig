@@ -1,5 +1,6 @@
 {% extends 'EmailBundle::layout.html.twig' %}
 
+
 {% block body %}
 
     {% for label, flashes in app.session.flashbag.all %}
@@ -25,7 +26,7 @@
          <form role="form" action="{{ path("email_formEmail") }}" enctype="multipart/form-data" method="POST">
              {{ form_start(form) }}
             <div class="#{$fa-css-prefix}-angle-down"> {{ form_errors(form) }}</div>
-             {#{{ form_row(form.email, { value:  app.user.email }) }}#}
+             {{ form_row(form.name, { value:  app.user.username }) }}
              {{ form_row(form.username, { value:  app.user.username }) }}
              {{ form_row(form.email, { 'value': 'evaldez@bullatickets.com' }) }}
              {{ form_row(form.emailTo, { 'value':  'iancasillasbuffon@gmail.com' }) }}
@@ -53,29 +54,32 @@
                  </div>
 
                  <div class="form-group">
-                       {{ form_row(form.image) }}
+                       {{ form_row(form.file, {
+                       'attr': { 'class': 'form-control' },
+                       }) }}
                  </div>
 
                  <div class="form-group">
-
                      {{ form_row(form.qtyType, {
                      'attr': { 'class': 'form-control' },
                      }) }}
-
                  </div>
             </div>
 
            <div class="col-md-12">
 
-                   <div class="col-md-9">
+                   <div class="col-md-8">
                            {{ form_row(form.message, {
                            'attr': { 'class': 'form-control' }
                            }) }}
                    </div>
-                       <div class="col-md-3">
+                       <div class="col-md-4">
+
                            {{ form_row(form.captcha, {
                                'attr': { 'class': 'form-control' }
-                               }) }}
+
+
+                                      }) }}
                        </div>
 
 
