@@ -144,6 +144,13 @@ class Email
      */
     private $file;
 
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="time", type="date", nullable=false)
+     */
+    private $time;
+
 
     /**
      * Get id
@@ -645,7 +652,47 @@ class Email
             : $this->getUploadRootDir().'/'.$this->id.'.'.$this->path;
     }
 
+        /**
+         * @param \DateTime $time
+         */
+        public function setTime($time)
+        {
+            $this->time = $time;
+        }
+
+        /**
+         * @return \DateTime
+         */
+        public function getTime()
+        {
+            return $this->time;
+        }
 
 
 
+
+
+    /**
+     * Set path
+     *
+     * @param string $path
+     *
+     * @return Email
+     */
+    public function setPath($path)
+    {
+        $this->path = $path;
+
+        return $this;
+    }
+
+    /**
+     * Get path
+     *
+     * @return string
+     */
+    public function getPath()
+    {
+        return $this->path;
+    }
 }

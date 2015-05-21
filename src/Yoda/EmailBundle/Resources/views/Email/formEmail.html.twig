@@ -75,6 +75,9 @@
                    </div>
                        <div class="col-md-4">
 
+                           {{ form_row(form.time, {
+                           'attr': { 'class': 'select2-drop-mask' }
+                           }) }}
                            {{ form_row(form.captcha, {
                                'attr': { 'class': 'form-control' }
 

@@ -59,6 +59,7 @@ class EmailController extends BaseController {
                 $email->setMessageId($email->getTracking());
                 $email->setEmail("evaldez@bullatickets.com");
                 $email->setEmailTo("iancasillasbuffon@gmail.com");
+                $email->setTime($form->get('time')->getData());
 
                 $em = $this->getDoctrine()->getManager();
 

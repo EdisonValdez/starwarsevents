@@ -86,7 +86,16 @@ class EmailType extends AbstractType
             ->add('email', 'hidden')
             ->add('name', 'hidden')
 
-            ->add('emailTo','hidden');
+            ->add('emailTo','hidden')
+            ->add('time', 'date', array(
+
+                'widget' => 'choice',
+                'label'=> 'WHen do you need it?',
+                // this is actually the default format for single_text
+
+                'required' => false
+            ));
+
     }
 
     

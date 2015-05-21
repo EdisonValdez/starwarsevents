@@ -31,15 +31,17 @@ class __TwigTemplate_eb102159b76809a03ebee735341a46e0bc03ab7e29732d32b0f84993668
         echo "
     <section class=\"events\">
         <header id=\"menu\">
+
             <a class=\"button\" href=\"";
-        // line 7
+        // line 8
         echo $this->env->getExtension('routing')->getPath("event_new");
-        echo "\">Create new event</a>
+        echo "\"><button class=\"register-button\">Add Company</button> </a>
+
             
             ";
-        // line 9
+        // line 11
         if ($this->env->getExtension('security')->isGranted("IS_AUTHENTICATED_REMEMBERED")) {
-            // line 10
+            // line 12
             echo "              <a class=\"link\" href=\"";
             echo $this->env->getExtension('routing')->getPath("logout");
             echo "\" >Logout ";
@@ -47,19 +49,19 @@ class __TwigTemplate_eb102159b76809a03ebee735341a46e0bc03ab7e29732d32b0f84993668
             echo "</a>
             ";
         } else {
-            // line 12
+            // line 14
             echo "              <a class=\"link\" href=\"";
             echo $this->env->getExtension('routing')->getPath("login_form");
             echo "\" >Login</a>
              
             ";
         }
-        // line 15
+        // line 17
         echo "            
         </header>
 
   ";
-        // line 18
+        // line 20
         echo $this->env->getExtension('http_kernel')->renderFragment($this->env->getExtension('http_kernel')->controller("EventBundle:Event:_upcomingEvents"));
         echo "
     </section>
@@ -78,6 +80,6 @@ class __TwigTemplate_eb102159b76809a03ebee735341a46e0bc03ab7e29732d32b0f84993668
 
     public function getDebugInfo()
     {
-        return array (  63 => 18,  58 => 15,  51 => 12,  43 => 10,  41 => 9,  36 => 7,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  65 => 20,  60 => 17,  53 => 14,  45 => 12,  43 => 11,  37 => 8,  31 => 4,  28 => 3,  11 => 1,);
     }
 }

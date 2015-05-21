@@ -2,7 +2,6 @@
 
 namespace Yoda\UserBundle\Controller;
 
-//use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Yoda\EventBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
@@ -28,10 +27,6 @@ class RegisterController extends Controller
         if ($form->isValid()) {
             $user = $form->getData();
 
-           /* $user->setPassword(
-                $this->encodePassword($user, $user->getPlainPassword())
-            );*/
-
             $em = $this->getDoctrine()->getManager();
             $em->persist($user);
             $em->flush();
@@ -51,15 +46,6 @@ class RegisterController extends Controller
         return array('form' => $form->createView());
     }
 
-  /*  private function encodePassword(User $user, $plainPassword)
-    {
-        $encoder = $this->container->get('security.encoder_factory')
-            ->getEncoder($user)
-        ;
-
-        return $encoder->encodePassword($plainPassword, $user->getSalt());
-    }*/
-
     private function authenticateUser(User $user)
     {
         $providerKey = 'secured_area'; // your firewall name
@@ -68,4 +54,3 @@ class RegisterController extends Controller
         $this->getSecurityContext()->setToken($token);
     }
 }
-

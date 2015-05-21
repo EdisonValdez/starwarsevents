@@ -2,9 +2,318 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66337745-d3f6-441e-98d6-1deca005f757" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a6/0f/0ba8b8476f97682f5d9eab0208aea0e5aa58d97372aa7c4930a5941e4240.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\4595a322ddae169bda57ebf50a887774c272b9b3.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\4d9aa22746bb4bd1debb7fc3eb2fdd9fdb960e4b.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\67a466ad8e5cbca27c93f29937f422ed223d3a39$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\67a466ad8e5cbca27c93f29937f422ed223d3a39$name.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\67a466ad8e5cbca27c93f29937f422ed223d3a39.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\9aedc2de0c0721befce9570e9fb4a14b7d723f6d$description.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\9aedc2de0c0721befce9570e9fb4a14b7d723f6d$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\9aedc2de0c0721befce9570e9fb4a14b7d723f6d$name.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\9aedc2de0c0721befce9570e9fb4a14b7d723f6d$price.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\annotations\9aedc2de0c0721befce9570e9fb4a14b7d723f6d.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\03\11\db1103" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\03\5b\615b03" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\03\fe\a8fe03" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\04\07\cd0704" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\05\df\c7df05" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\09\2f\a12f09" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\09\ba\53ba09" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\0a\c9\f2c90a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\0c\99\af990c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\0c\db\a6db0c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\0d\54\e1540d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\0f\bb\42bb0f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\0f\c2\27c20f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\10\0a\b70a10" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\12\5d\265d12" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\13\71\167113" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\14\00\970014" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\14\0c\2a0c14" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\14\5b\285b14" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\15\07\680715" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\15\d9\06d915" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\16\27\af2716" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\16\4e\054e16" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\17\2e\6c2e17" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\17\91\229117" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\17\94\149417" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\18\34\4f3418" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\1a\0f\ed0f1a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\1a\4b\c44b1a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\1c\17\e5171c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\1e\08\19081e" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\20\96\b29620" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\21\7b\a17b21" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\22\0b\350b22" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\22\b6\b5b622" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\23\39\d53923" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\23\ef\c5ef23" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\24\71\f17124" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\25\23\db2325" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\25\50\155025" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\25\b1\e3b125" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\27\a7\f0a727" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\29\18\171829" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\29\61\326129" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\29\e2\50e229" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\2a\25\62252a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\2b\9f\0c9f2b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\2c\8c\178c2c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\31\6b\d46b31" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\34\d7\9dd734" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\35\97\0e9735" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\35\9f\fe9f35" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\36\77\867736" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\36\e4\4ee436" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\36\e8\2de836" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\37\5f\8f5f37" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\37\bb\dcbb37" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\37\d0\60d037" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\39\d1\19d139" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\3c\1a\701a3c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\3c\b4\a4b43c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\3f\56\06563f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\40\ba\98ba40" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\41\25\f82541" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\41\7b\827b41" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\44\79\9d7944" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\44\ff\70ff44" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\46\97\4a9746" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\47\f3\7af347" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\48\36\833648" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\48\5e\a55e48" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\48\e3\fae348" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\49\0d\c20d49" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\4a\69\a7694a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\4a\7e\3b7e4a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\4b\5c\775c4b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\4c\93\a1934c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\4c\bc\f8bc4c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\4d\68\f6684d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\4d\df\83df4d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\50\05\db0550" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\50\d1\33d150" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\51\4a\d04a51" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\52\2b\e82b52" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\52\b1\05b152" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\53\c4\3dc453" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\54\a2\ada254" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\54\bf\04bf54" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\54\da\ceda54" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\57\39\383957" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\57\85\188557" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\57\c6\5bc657" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\59\88\6e8859" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\5a\16\30165a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\5a\6e\3d6e5a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\5a\f1\97f15a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\5b\3d\c13d5b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\5d\53\86535d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\5d\b5\39b55d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\5e\17\fc175e" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\61\66\e96661" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\64\c8\dcc864" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\65\54\c15465" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\65\e4\cbe465" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\66\e7\9ee766" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\67\ba\deba67" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\68\77\637768" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\69\3b\563b69" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\6b\35\2f356b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\6b\d0\c6d06b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\6c\01\5c016c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\6c\84\41846c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\6c\a3\fba36c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\6d\30\0b306d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\70\12\f71270" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\72\fb\a0fb72" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\73\a6\fca673" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\74\57\895774" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\74\a7\d6a774" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\76\36\f83676" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\76\a7\91a776" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\77\a1\bfa177" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\78\51\f05178" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\78\73\f67378" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\78\ba\f0ba78" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\78\f1\2df178" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\7c\4e\614e7c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\7d\07\56077d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\7d\d2\d1d27d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\7e\3d\bb3d7e" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\7e\d9\4bd97e" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\80\20\cb2080" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\80\69\da6980" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\80\7b\757b80" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\81\7e\ad7e81" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\82\86\588682" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\83\4c\f84c83" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\83\cc\66cc83" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\84\65\646584" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\84\d7\75d784" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\84\e9\eee984" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\86\6e\146e86" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\88\7b\ff7b88" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\88\db\68db88" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\89\b4\b9b489" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\8b\3e\c43e8b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\8b\71\cb718b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\8b\cc\d3cc8b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\8c\2b\222b8c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\8c\4c\5e4c8c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\92\0b\b00b92" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\93\10\ea1093" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\93\a6\45a693" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\94\3a\943a94" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\94\5b\f55b94" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\94\79\c47994" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\94\7d\197d94" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\95\3c\f53c95" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\95\4e\df4e95" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\95\89\038995" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\96\8e\918e96" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\96\92\189296" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\97\d1\3ed197" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\98\4d\794d98" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\9b\60\15609b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\9c\0e\2a0e9c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\9d\64\74649d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a0\4b\b34ba0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a0\5e\ae5ea0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a0\ce\59cea0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a1\f3\45f3a1" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a4\05\0005a4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a5\c7\01c7a5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a6\55\1d55a6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a6\c7\3fc7a6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a6\dc\d7dca6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a8\77\3677a8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\a8\d3\f4d3a8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\aa\2b\952baa" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ab\c2\7ac2ab" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ac\e6\d2e6ac" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ad\b4\5fb4ad" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\af\a6\8ea6af" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b0\93\a293b0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b2\f6\17f6b2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b4\03\8903b4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b4\e8\09e8b4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b5\eb\f8ebb5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b6\92\1c92b6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b8\2e\492eb8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b9\28\8228b9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\b9\70\b970b9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ba\41\b941ba" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\bb\32\b632bb" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\bb\44\8144bb" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\bc\66\0466bc" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\be\40\de40be" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\be\b6\a3b6be" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c0\5f\465fc0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c0\97\8c97c0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c0\c1\e4c1c0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c1\95\8495c1" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c1\c6\40c6c1" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c1\cf\84cfc1" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c2\86\c986c2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c2\f0\b2f0c2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c3\91\9991c3" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c3\ff\e6ffc3" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c4\46\0a46c4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c4\92\a192c4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c5\43\a043c5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c5\99\3999c5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c7\c0\74c0c7" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\c8\bf\f8bfc8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\cb\a5\00a5cb" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ce\24\f024ce" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ce\c8\6bc8ce" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\cf\54\0c54cf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\cf\c9\07c9cf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d0\10\ca10d0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d3\53\9953d3" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d4\dc\19dcd4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d5\de\e2ded5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d6\92\de92d6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d7\07\3e07d7" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d7\a7\14a7d7" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d8\65\4065d8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d8\92\4492d8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d9\94\9a94d9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\d9\9a\2a9ad9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\da\19\3e19da" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\db\95\f395db" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\de\f1\63f1de" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\df\3d\e53ddf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e1\88\5e88e1" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e2\15\8c15e2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e2\1e\761ee2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e2\38\0138e2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e2\53\1153e2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e3\18\e518e3" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e5\0d\bf0de5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e5\1f\291fe5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e5\b7\f2b7e5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e5\e2\fee2e5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e5\ef\cfefe5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e7\4a\0b4ae7" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e7\60\a460e7" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e8\85\dc85e8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\e9\88\5188e9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ea\50\4f50ea" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ea\62\5662ea" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\eb\06\4306eb" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\eb\8e\298eeb" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ec\2a\952aec" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ec\36\fa36ec" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ed\0d\bd0ded" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ed\44\d544ed" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ed\74\d074ed" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ee\79\4a79ee" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f0\21\4e21f0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f2\37\a037f2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f2\af\4faff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f3\4f\c74ff3" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f3\84\4084f3" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f3\bf\8dbff3" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f4\55\9955f4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f5\05\4405f5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f9\0e\a40ef9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\f9\34\f934f9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\fc\81\2c81fc" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\fc\e9\06e9fc" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\fd\9c\f69cfd" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\profiler\ff\62\d562ff" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\app\cache\dev\twig\7a\55\32d37ff9fed07c370d0108eeeef6318d2850f495841d5d76bd4e5ef2e4d1.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\src\Yoda\EventBundle\Entity\Category.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\src\Yoda\EventBundle\Entity\CategoryRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\src\Yoda\EventBundle\Entity\Product.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\src\Yoda\EventBundle\Entity\ProductRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\starwarsevents\src\web\images\products\IMG_20141105_194823.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5b/81/11f3275207468a39d694cec96b14fe6f03477d48161e05d9cb90f5cd16ea.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/5b/81/11f3275207468a39d694cec96b14fe6f03477d48161e05d9cb90f5cd16ea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c2/c9/191a4d68fc29b8acc9e7f423aa3065ac50dfe364fd5fb207273a97501d74.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c2/c9/191a4d68fc29b8acc9e7f423aa3065ac50dfe364fd5fb207273a97501d74.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/27/2f/19eb5108ff5909a45331e99c9476471b308218f4c2d7e0dad7ec301101e0.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/27/2f/19eb5108ff5909a45331e99c9476471b308218f4c2d7e0dad7ec301101e0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/eb/10/2159b76809a03ebee735341a46e0bc03ab7e29732d32b0f84993668efecd.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/eb/10/2159b76809a03ebee735341a46e0bc03ab7e29732d32b0f84993668efecd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/2692db8cdf269f51ecd9e87fe3b2088d9d998dfc#indexAction.cache.php" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/2692db8cdf269f51ecd9e87fe3b2088d9d998dfc#indexAction.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8b/b5/6e5e16bf35b963cba271e42a244b58d94f4441018812169a33d1bbb9b9ac.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/8b/b5/6e5e16bf35b963cba271e42a244b58d94f4441018812169a33d1bbb9b9ac.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Email.php" afterPath="$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EmailBundle/Controller/EmailController.php" afterPath="$PROJECT_DIR$/src/Yoda/EmailBundle/Controller/EmailController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EmailBundle/Form/EmailType.php" afterPath="$PROJECT_DIR$/src/Yoda/EmailBundle/Form/EmailType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/RegisterController.php" afterPath="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/RegisterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/SecurityController.php" afterPath="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/SecurityController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/UserBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/Yoda/UserBundle/Entity/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/dc/33/c0024b575d7fbc301230c49b7aac0989eddf175e2e7ff9e6eb2275dc72d5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/dc/33/c0024b575d7fbc301230c49b7aac0989eddf175e2e7ff9e6eb2275dc72d5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/0b/75/dc2f339ef73120566f0dd535ea20ac40bc0f14ffbc97665e439fd99514bb.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/0b/75/dc2f339ef73120566f0dd535ea20ac40bc0f14ffbc97665e439fd99514bb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c7/94/ec04f984b37c10b7a7ca8372cf1f2c14b22636a366a8dd81c6fb2c3209f1.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c7/94/ec04f984b37c10b7a7ca8372cf1f2c14b22636a366a8dd81c6fb2c3209f1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/formEmail.html.twig" afterPath="$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/formEmail.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="starwarsevents.iws" />
@@ -31,48 +340,20 @@
       <file leaf-file-name="EmailController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Controller/EmailController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="449" column="26" selection-start="15520" selection-end="15520" vertical-scroll-proportion="-5.627451" vertical-offset="886" max-vertical-offset="1972">
+            <state line="61" column="63" selection-start="2404" selection-end="2404" vertical-scroll-proportion="-14.0" vertical-offset="605" max-vertical-offset="1989">
               <folding>
                 <element signature="e#47#122#0" expanded="true" />
                 <element signature="e#596#721#0" expanded="false" />
-                <element signature="e#2509#15519#0" expanded="false" />
-                <marker date="1432053107377" expanded="true" signature="12221:12484" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="12633:14423" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="12674:14382" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="12719:14340" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="12863:13434" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="12916:13381" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="12973:13327" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="13596:14202" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="13649:14149" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="13706:14095" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="13855:14036" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14702:15436" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14715:15423" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14772:15387" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14844:15351" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14872:15328" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14901:15299" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14949:15269" placeholder="..." />
-                <marker date="1432053107377" expanded="true" signature="14985:15235" placeholder="..." />
+                <element signature="e#2573#15583#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Product.php">
+      <file leaf-file-name="EventAdmin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Admin/EventAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="0.32622603" vertical-offset="0" max-vertical-offset="2278">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadUsers.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/DataFixtures/ORM/LoadUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="9" selection-start="769" selection-end="771" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="1241">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.5769231" vertical-offset="15" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -81,43 +362,16 @@
       <file leaf-file-name="formEmail.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/formEmail.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="-10.961538" vertical-offset="361" max-vertical-offset="1819">
+            <state line="82" column="0" selection-start="2997" selection-end="2997" vertical-scroll-proportion="-11.115385" vertical-offset="1105" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20.jpeg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/images/products/20.jpeg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Controller/RegisterController.php">
+      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="33" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-9.538462" vertical-offset="738" max-vertical-offset="1207">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Email.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="638" column="5" selection-start="11071" selection-end="11071" vertical-scroll-proportion="-193.15686" vertical-offset="995" max-vertical-offset="11169">
-              <folding>
-                <element signature="e#43#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Form/EmailType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="34" selection-start="3038" selection-end="3038" vertical-scroll-proportion="-7.6153846" vertical-offset="975" max-vertical-offset="1836">
+            <state line="14" column="14" selection-start="355" selection-end="371" vertical-scroll-proportion="0.25889328" vertical-offset="22" max-vertical-offset="5372">
               <folding />
             </state>
           </provider>
@@ -136,15 +390,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
-        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/DependencyInjection/YodaEventBundleExtension.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Admin/EventsAdmin.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/UserBundle/DependencyInjection/YodaUserBundleExtension.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/config/admin.yml" />
-        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Admin/EventAdmin.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Admin/UsersAdmin.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/admin.yml" />
-        <option value="$PROJECT_DIR$/web/bundles/sonata_translation.yml" />
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/Controller.php" />
         <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/config/admin.yml" />
@@ -158,7 +403,6 @@
         <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Region.php" />
         <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Country.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/EmailRepository.php" />
         <option value="$PROJECT_DIR$/play.php" />
         <option value="$PROJECT_DIR$/country.php" />
@@ -178,23 +422,32 @@
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Form/EmailType.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Email.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/DataFixtures/ORM/LoadUsers.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/formEmail.html.twig" />
-        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Controller/EmailController.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Form/EmailType.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Product.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/DataFixtures/ORM/LoadProducts.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/DataFixtures/ORM/LoadCategories.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/RegisterController.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Email.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Controller/EmailController.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/formEmail.html.twig" />
+        <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Entity/User.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="417" />
-    <option name="y" value="6" />
-    <option name="width" value="834" />
+    <option name="x" value="228" />
+    <option name="width" value="1015" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -251,20 +504,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starwarsevents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starwarsevents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -286,26 +525,8 @@
               <option name="myItemId" value="Yoda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="starwarsevents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starwarsevents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yoda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventBundle" />
+              <option name="myItemId" value="UserBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,11 +548,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EventBundle" />
+              <option name="myItemId" value="UserBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yoda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yoda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmailBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yoda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmailBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yoda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmailBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starwarsevents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yoda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmailBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,6 +714,7 @@
       <recent name="C:\wamp\www\starwarsevents\src\Yoda\EmailBundle\Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\starwarsevents\web\uploads" />
       <recent name="C:\wamp\www\starwarsevents\src\Yoda\EmailBundle\Resources\views" />
       <recent name="C:\wamp\www\starwarsevents\src\Yoda\EmailBundle\Resources\views\Email" />
     </key>
@@ -410,15 +762,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="417" y="6" width="834" height="784" extended-state="0" />
+    <frame x="228" y="0" width="1015" height="784" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09076433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32860824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26645768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -453,88 +805,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="719" selection-end="719" vertical-scroll-proportion="0.6991342" vertical-offset="0" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="69" selection-end="124" vertical-scroll-proportion="0.038548753" vertical-offset="51" max-vertical-offset="1632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/_upcomingEvents.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="66" selection-start="345" selection-end="368" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/EmailRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="0.44078946" vertical-offset="71" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="295" selection-end="295" vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="493" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="4" selection-start="1464" selection-end="1587" vertical-scroll-proportion="1.877712" vertical-offset="0" max-vertical-offset="4964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/sendMail.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="12389" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Resources/views/Register/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="60" selection-start="531" selection-end="531" vertical-scroll-proportion="0.74634147" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="43" selection-end="200" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="4879" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="470" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="492" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.43776825" vertical-offset="0" max-vertical-offset="466" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Controller/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="1" selection-start="269" selection-end="269" vertical-scroll-proportion="0.23181818" vertical-offset="0" max-vertical-offset="440" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Form/EventType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="624" selection-end="816" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="11" selection-start="2052" selection-end="2204" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="5950">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -550,21 +823,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="64957" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/cache0/dev/annotations/2f8b81d5753dd1bd4ab14a175b9daabeeae66ad5#indexAction.cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="466" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1443" selection-end="1443" vertical-scroll-proportion="-10.615385" vertical-offset="268" max-vertical-offset="935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="612">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/layout.html.twig">
@@ -595,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="13" selection-start="3372" selection-end="3372" vertical-scroll-proportion="-6.56" vertical-offset="1774" max-vertical-offset="2312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
@@ -621,11 +875,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.129293" vertical-offset="559" max-vertical-offset="1054">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/images/products/IMG_20141105_194823.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Resources/config/services.yml">
@@ -663,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Controller/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="33" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-9.538462" vertical-offset="738" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/DataFixtures/ORM/LoadUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="9" selection-start="769" selection-end="771" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="1241">
@@ -677,37 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="638" column="5" selection-start="11071" selection-end="11071" vertical-scroll-proportion="-193.15686" vertical-offset="995" max-vertical-offset="11169">
-          <folding>
-            <element signature="e#43#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/images/products/initial">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="47" selection-end="47" vertical-scroll-proportion="0.008928572" vertical-offset="47" max-vertical-offset="969">
-          <folding>
-            <element signature="e#105#148#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Form/EmailType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="34" selection-start="3038" selection-end="3038" vertical-scroll-proportion="-7.6153846" vertical-offset="975" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/products/20.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -717,16 +929,148 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Form/EventType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="21" selection-start="847" selection-end="847" vertical-scroll-proportion="0.5725646" vertical-offset="273" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/DataFixtures/ORM/LoadEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="619" selection-end="619" vertical-scroll-proportion="-5.8461537" vertical-offset="137" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Form/EmailType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="3427" selection-end="3427" vertical-scroll-proportion="-6.5384617" vertical-offset="1241" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/ReportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="267" selection-end="267" vertical-scroll-proportion="0.17634855" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/_upcomingEvents.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding>
+            <marker date="1431451613149" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431451613149" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431451613149" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431451613149" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1431451613149" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Entity/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="615" selection-end="632" vertical-scroll-proportion="17.307692" vertical-offset="705" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Controller/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.7861635" vertical-offset="475" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="1" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.9014675" vertical-offset="250" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="243" selection-end="248" vertical-scroll-proportion="0.3319239" vertical-offset="98" max-vertical-offset="6511">
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="0" selection-start="9201" selection-end="9201" vertical-scroll-proportion="11.936956" vertical-offset="0" max-vertical-offset="5593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.28041238" vertical-offset="0" max-vertical-offset="485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="63" selection-end="63" vertical-scroll-proportion="0.070103094" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Entity/Email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="42" selection-start="2703" selection-end="2703" vertical-scroll-proportion="-8.09804" vertical-offset="2069" max-vertical-offset="11917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="13" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.48664123" vertical-offset="1683" max-vertical-offset="2312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/images/products/18.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/formEmail.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="-10.961538" vertical-offset="361" max-vertical-offset="1819">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/images/products/20.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/images/products/22.jpeg">
@@ -734,51 +1078,68 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="239" selection-end="239" vertical-scroll-proportion="0.26771653" vertical-offset="0" max-vertical-offset="508">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/images/products/23.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/products/23.jpeg">
+    <entry file="file://$PROJECT_DIR$/web/images/products/24.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/products/25.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/products/26.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Controller/EmailController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="449" column="26" selection-start="15520" selection-end="15520" vertical-scroll-proportion="-5.627451" vertical-offset="886" max-vertical-offset="1972">
+        <state line="61" column="63" selection-start="2404" selection-end="2404" vertical-scroll-proportion="-14.0" vertical-offset="605" max-vertical-offset="1989">
           <folding>
             <element signature="e#47#122#0" expanded="true" />
             <element signature="e#596#721#0" expanded="false" />
-            <element signature="e#2509#15519#0" expanded="false" />
-            <marker date="1432053107377" expanded="true" signature="12221:12484" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="12633:14423" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="12674:14382" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="12719:14340" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="12863:13434" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="12916:13381" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="12973:13327" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="13596:14202" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="13649:14149" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="13706:14095" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="13855:14036" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14702:15436" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14715:15423" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14772:15387" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14844:15351" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14872:15328" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14901:15299" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14949:15269" placeholder="..." />
-            <marker date="1432053107377" expanded="true" signature="14985:15235" placeholder="..." />
+            <element signature="e#2573#15583#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Product.php">
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/EventAdminRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="0.32622603" vertical-offset="0" max-vertical-offset="2278">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/EventAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Admin/EventAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.5769231" vertical-offset="15" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EmailBundle/Resources/views/Email/formEmail.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="2997" selection-end="2997" vertical-scroll-proportion="-11.115385" vertical-offset="1105" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="355" selection-end="371" vertical-scroll-proportion="0.25889328" vertical-offset="22" max-vertical-offset="5372">
           <folding />
         </state>
       </provider>

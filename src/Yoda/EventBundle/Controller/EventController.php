@@ -3,7 +3,6 @@
 namespace Yoda\EventBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
-//use Yoda\EventBundle\Controller\Controller;
 
 use Yoda\EventBundle\Entity\Event;
 use Yoda\EventBundle\Form\EventType;
@@ -20,26 +19,27 @@ class EventController extends Controller
 {
 
     /**
-     * @Route("/", name="event")
      * @Template()
-     * Lists all Event entities.
-     *
+     * @Route("/", name="event")
      */
     public function indexAction()
     {
         return array();
     }
-    
+
     public function _upcomingEventsAction($max = null)
     {
         $em = $this->getDoctrine()->getManager();
+
         $events = $em->getRepository('EventBundle:Event')
-                ->getUpcomingEvents($max);
+            ->getUpcomingEvents($max)
+        ;
+
         return $this->render('EventBundle:Event:_upcomingEvents.html.twig', array(
             'events' => $events,
         ));
     }
-    
+
     /**
      * Creates a new Event entity.
      *
@@ -47,24 +47,22 @@ class EventController extends Controller
     public function createAction(Request $request)
     {
         $this->enforceUserSecurity('ROLE_EVENT_CREATE');
-        
+
         $entity = new Event();
         $form = $this->createCreateForm($entity);
         $form->handleRequest($request);
 
         if ($form->isValid()) {
             $user = $this->getUser();
-            // this works!
-            // this is setting the owning side f the relationship
+
             $entity->setOwner($user);
-            
-            // this would do anything
-            // it sets the inverse side
-            
-            // $events = $user->getEvents();
+
+            // this does nothing
+            // if we *only* had this part, the relationship would not save
+            // $events = $this->getUser()->getEvents();
             // $events[] = $entity;
-            // $user->setEvents($events);
-            
+            // $this->getUser()->setEvents($events);
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($entity);
             $em->flush();
@@ -87,8 +85,6 @@ class EventController extends Controller
      */
     private function createCreateForm(Event $entity)
     {
-        $this->enforceUserSecurity();
-        
         $form = $this->createForm(new EventType(), $entity, array(
             'action' => $this->generateUrl('event_create'),
             'method' => 'POST',
@@ -106,6 +102,7 @@ class EventController extends Controller
     public function newAction()
     {
         $this->enforceUserSecurity('ROLE_EVENT_CREATE');
+
         $entity = new Event();
         $form   = $this->createCreateForm($entity);
 
@@ -124,7 +121,7 @@ class EventController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository('EventBundle:Event')
-                ->findOneBy(array('slug' => $slug ));
+            ->findOneBy(array('slug' => $slug));
 
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Event entity.');
@@ -134,8 +131,7 @@ class EventController extends Controller
 
         return $this->render('EventBundle:Event:show.html.twig', array(
             'entity'      => $entity,
-            'delete_form' => $deleteForm->createView(),
-        ));
+            'delete_form' => $deleteForm->createView(),        ));
     }
 
     /**
@@ -145,7 +141,6 @@ class EventController extends Controller
     public function editAction($id)
     {
         $this->enforceUserSecurity();
-        
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository('EventBundle:Event')->find($id);
@@ -153,7 +148,7 @@ class EventController extends Controller
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Event entity.');
         }
-        
+
         $this->enforceOwnerSecurity($entity);
 
         $editForm = $this->createEditForm($entity);
@@ -167,12 +162,12 @@ class EventController extends Controller
     }
 
     /**
-    * Creates a form to edit a Event entity.
-    *
-    * @param Event $entity The entity
-    *
-    * @return \Symfony\Component\Form\Form The form
-    */
+     * Creates a form to edit a Event entity.
+     *
+     * @param Event $entity The entity
+     *
+     * @return \Symfony\Component\Form\Form The form
+     */
     private function createEditForm(Event $entity)
     {
         $form = $this->createForm(new EventType(), $entity, array(
@@ -191,7 +186,6 @@ class EventController extends Controller
     public function updateAction(Request $request, $id)
     {
         $this->enforceUserSecurity();
-        
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository('EventBundle:Event')->find($id);
@@ -199,7 +193,7 @@ class EventController extends Controller
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Event entity.');
         }
-        
+
         $this->enforceOwnerSecurity($entity);
 
         $deleteForm = $this->createDeleteForm($id);
@@ -225,7 +219,6 @@ class EventController extends Controller
     public function deleteAction(Request $request, $id)
     {
         $this->enforceUserSecurity();
-        
         $form = $this->createDeleteForm($id);
         $form->handleRequest($request);
 
@@ -236,15 +229,16 @@ class EventController extends Controller
             if (!$entity) {
                 throw $this->createNotFoundException('Unable to find Event entity.');
             }
+
             $this->enforceOwnerSecurity($entity);
-            
+
             $em->remove($entity);
             $em->flush();
         }
 
         return $this->redirect($this->generateUrl('event'));
     }
-    
+
     public function attendAction($id, $format)
     {
         $em = $this->getDoctrine()->getManager();
@@ -254,19 +248,17 @@ class EventController extends Controller
         if (!$event) {
             throw $this->createNotFoundException('No event found for id '.$id);
         }
-        
-        if(!$event->hasAttendee($this->getUser())){
+
+        if (!$event->hasAttendee($this->getUser())) {
             $event->getAttendees()->add($this->getUser());
-        
         }
+
         $em->persist($event);
         $em->flush();
-        
+
         return $this->createAttendingResponse($event, $format);
-        
-        //return $this->redirect($url);
     }
-    
+
     public function unattendAction($id, $format)
     {
         $em = $this->getDoctrine()->getManager();
@@ -282,36 +274,33 @@ class EventController extends Controller
         }
 
         $em->persist($event);
-         $em->flush();
+        $em->flush();
 
-       return $this->createAttendingResponse($event, $format);
-
-        //return $this->redirect($url);
-}
-
-    /**
- * @param Event $event
- * @param string $format
- * @return \Symfony\Component\HttpFoundation\Response
- */
-private function createAttendingResponse(Event $event, $format)
-{
-    if ($format == 'json') {
-        $data = array(
-            'attending' => $event->hasAttendee($this->getUser())
-        );
-
-        $response = new JsonResponse($data);
-
-        return $response;
+        return $this->createAttendingResponse($event, $format);
     }
 
-    $url = $this->generateUrl('event_show', array(
-        'slug' => $event->getSlug()
-    ));
 
-    return $this->redirect($url);
-}
+    /**
+     * @param Event $event
+     * @param string $format
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    private function createAttendingResponse(Event $event, $format)
+    {
+        if ($format == 'json') {
+            $data = array(
+                'attending' => $event->hasAttendee($this->getUser())
+            );
+
+            $response = new JsonResponse($data);
+
+            return $response;
+        }
+
+        return $this->redirect($this->generateUrl('event_show', array(
+            'slug' => $event->getSlug()
+        )));
+    }
 
     /**
      * Creates a form to delete a Event entity by id.
@@ -327,18 +316,15 @@ private function createAttendingResponse(Event $event, $format)
             ->setMethod('DELETE')
             ->add('submit', 'submit', array('label' => 'Delete'))
             ->getForm()
-        ;
+            ;
     }
-    
+
     private function enforceUserSecurity($role = 'ROLE_USER')
     {
-       if(!$this->getSecurityContext()->isGranted($role))
-        {
-            // Symfony 2.5
-            // throw $this->createAccessDeniedException('Need ROLE_ADMIN');
+        if (!$this->getSecurityContext()->isGranted($role)) {
+            // in Symfony 2.5
+            // throw $this->createAccessDeniedException('message!');
             throw new AccessDeniedException('Need '.$role);
-        } 
+        }
     }
-    
-
 }
